@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quick Staart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  </head>
+  
+  <body>
+    <div class="container-principal">
+
+      <!-- Container esquerdo -->
+       <div class="container centralizar esquerdo">
+        <div class="principal">
+          <h1 class="principal-logo">⚡Flash Staart</h1>
+          <h2 class="principal-titulo">Aprenda de forma rápida, simples e divertida o vocabulário técnico</h2>
+          <p class="principal-descricao">
+            No cartão você encontrará palavras e expressões que irá utilizar no seu dia a dia como dev. Aproveite para testar seus conhecimentos e fixar o significado.
+          </p>
+          <div class="botoes">
+            <button onclick="buscarInformacao()" class="botao">Próxima pergunta</button>
+            <button onclick="revelarResposta()" class="botao">Revelar resposta</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Container direito -->
+      <div id="cardContainer" class="container centralizar direito">
+
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
